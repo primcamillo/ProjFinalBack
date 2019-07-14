@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Gifs</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold" href="#">Gifs</a>
+        </div>
+    </nav>
+
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="font-helvetica-bold text-white">Gifs</h1>
+                    <p class="lead text-white size=14">
+                        Responda a algumas perguntas e vamos te trazer um gif!
+                    </p>
+
+                    <div class="row">
+                        <div class="col-sm"></div>
+                        <div class="col-sm">
+                            <button type="button" class="btn btn-light" id="btn-start">Vamos comecar</button>
+                        </div>
+                        <div class="col-sm"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="py-5 colors">
+        <div class="container">
+            <div class="text-center">
+                <h5 class="font-helvetica-bold text-white">Como estamos agora?</h5>
+                <p class="lead text-white size=14"></p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <button type="button" class="btn btn-outline-light btn-color" id="blue" style="width: 100%;">Topando
+                        uma Breja!</button>
+                    <img class="image-selection" src="http://img.ibxk.com.br/2013/8/materias/267861332209638.gif">
+                </div>
+
+                <div class="col-4">
+                    <button type="button" class="btn btn-outline-light btn-color" id="red"
+                        style="width: 100%;">Precisando de Massagem!</button>
+                    <img class="image-selection1"
+                        src="http://31.media.tumblr.com/f81af2c5c18950d411a4c6d4c39a5f06/tumblr_mvsx1npiXI1spnz0yo1_400.gif">
+                </div>
+
+                <div class="col-4">
+                    <button type="button" class="btn btn-outline-light btn-color" id="white" style="width: 100%;">Só
+                        querendo relaxar!</button>
+                    <img class="image-selection2" src="https://acegif.com/wp-content/uploads/funny-cat-43.gif">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="py-5 humor">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="font-helvetica-bold text-white">Vamos dar umas risadas com os Gifs</h1>
+                <p class="lead text-white size=14">Queremos...</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-5">
+                    <button type="button" class="btn btn-outline-light btn-humor" id="happy" style="width: 100%;">Gifs, Gifs, Gifs</button>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-5">
+                    <button type="button" class="btn btn-outline-light btn-humor" id="sad" style="width: 100%;">Risadas</button>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-5">
+                    <button type="button" class="btn btn-outline-light btn-humor" id="angry" style="width: 100%;">Diversas</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 result">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="font-helvetica-bold text-white">Resultado</h1>
+                <p id="result"></p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="rodape">
+        <div class="rodape__principal">
+            <ul class="rodape__navegacao"></ul>
+
+            <div class="rodape__cc">
+                <p> Projeto Reprograma Back-end 2019 | Feito com muitas lágrimas</p>
+            </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

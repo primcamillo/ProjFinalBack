@@ -1,0 +1,109 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("https://images.pexels.com/photos/990824/pexels-photo-990824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 ");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.colors {
+  height: 100vh;
+  min-height: 500px;
+  background-color: rgb(245, 207, 151);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.humor {
+  height: 100vh;
+  min-height: 500px;
+  background-color: rgb(151, 245, 156);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.result {
+  height: 100vh;
+  min-height: 500px;
+  background-color: rgb(187, 151, 245);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.base-time {
+  height: 100vh;
+  min-height: 500px;
+  background-color: rgb(248, 213, 164);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.base-result_podcasts {
+  height: 100vh;
+  min-height: 500px;
+  background-color: rgb(224, 186, 127);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.btn-generos{
+  height: 50px;
+  min-height: 500px;
+  display: block;  
+}
+.btn{
+  width: 200px;
+  height: 50px;
+}
+.rodape__cc {
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.py-5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h1{
+  margin: 100px;
+  font-weight: bold;
+}
+
+.col-sm{
+  margin: 0 0 0 5rem;
+}
+.lead{
+  font-size: 20pt;
+}
+.font-helvetica-bold{
+  font-size: 40pt;
+}
+
+.image-selection {
+  max-width: 100%;
+  height: auto;
+}
+.image-selection1 {
+  max-width: 100%;
+  height: auto;
+  transform: translate(10px, 50px);
+}
+.image-selection2 {
+  max-width: 100%;
+  height: auto;
+  transform: translate(10px, 50px);
+}
